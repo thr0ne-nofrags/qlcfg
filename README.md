@@ -1,10 +1,10 @@
 *IMPORTANT:* This config is set up to function optimally on the _PQL Vamp Community Server_ (`\connect go.pql.lol:27962`). The HUD is configured to not draw armor, ammo or timer elements but this can - of course - be reconfigured by the user (see below).
-# Modular Quake Live Configuration Files
+## Modular Quake Live Configuration Files
 Place `autoexec.cfg` and `thr0ne/` in your `.../Steam/steamapps/common/Quake Live/<SteamID64>/baseq3/` directory and `\exec autoexec.cfg` or just restart the game.
 
-## Binds
+### Binds
 Open `thr0ne/binds.cfg` and change my binds to your own.
-## DPI
+### DPI
 Set `m_cpi` to whatever your mouse is using, then use Quake Live's universal sensitivity value type. Example config with `20-21 cm/360`: 
 * Mouse DPI = 400
 * `seta m_cpi 400`
